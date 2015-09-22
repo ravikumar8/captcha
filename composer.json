@@ -1,0 +1,29 @@
+{
+    "name": "ravikumar8/captcha-php",
+    "description": "A simple CAPTCHA",
+    "keywords": ["captcha", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ravi Kumar",
+            "email": "webloper@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+			"RaviKumar8\\Captcha\\": "src"
+		}
+    },
+    "autoload-dev": {
+        "psr-4": {
+        	"RaviKumar8\\Captcha\\Tests\\": "tests"
+        }
+    },
+    "require" : {
+        "php" : ">=5.4"
+    },
+    "require-dev":	{
+		"phpunit/phpunit": "~4.0"
+	}    
+}
